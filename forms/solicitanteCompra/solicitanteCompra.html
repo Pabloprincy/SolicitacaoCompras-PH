@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide-flat.min.css" />
+    <script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+    <script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="fluig-style-guide">
+      <form name="form" role="form">
+
+        <!-- Solicitante -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Solicitante</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label for="nomeSolicitante">Nome *</label>
+                <input type="text" class="form-control" name="nomeSolicitante" id="nomeSolicitante" />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="areaCusto">Área / centro de custo *</label>
+                <input type="text" class="form-control" name="areaCusto" id="areaCusto" />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="gestor">Gestor *</label>
+                <input type="zoom" id="gestor" name="gestor" zoomvalue="colleagueId"
+                  data-zoom="{
+                    'displayKey':'colleagueName',
+                    'datasetId':'colleague',
+                    'fields':[
+                      {'field':'colleagueId','label':'Código','visible':'false'},
+                      {'field':'colleagueName','label':'Nome','standard':true}
+                    ]
+                  }">
+                <input type="hidden" id="hidden_gestor" name="hidden_gestor">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-9">
+                <label for="itens">Itens *</label>
+                <textarea class="form-control" name="itens" id="itens" rows="2"></textarea>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="valor">Valor *</label>
+                <div class="input-group">
+                  <span class="input-group-addon">R$</span>
+                  <input type="number" step="0.01" min="0" class="form-control" name="valor" id="valor" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-12">
+                <label for="justificativa">Justificativa</label>
+                <textarea class="form-control" name="justificativa" id="justificativa" rows="2"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gestor -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Aprovação do gestor</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label>Decisão *</label>
+                <div>
+                  <label class="radio-inline">
+                    <input type="radio" name="decisaoGestor" id="aprovarGestor" value="aprovar" /> Aprovar
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="decisaoGestor" id="desaprovarGestor" value="desaprovar" /> Desaprovar
+                  </label>
+                </div>
+              </div>
+              <div class="form-group col-md-8">
+                <label for="obsGestor">Observação</label>
+                <textarea class="form-control" name="obsGestor" id="obsGestor" rows="2"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RH -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Aprovação do RH</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label>Decisão *</label>
+                <div>
+                  <label class="radio-inline">
+                    <input type="radio" name="decisaoRH" id="aprovarRH" value="aprovar" /> Aprovar
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="decisaoRH" id="desaprovarRH" value="desaprovar" /> Desaprovar
+                  </label>
+                </div>
+              </div>
+              <div class="form-group col-md-8">
+                <label for="obsRH">Observação</label>
+                <textarea class="form-control" name="obsRH" id="obsRH" rows="2"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+# Eclipse
+.metadata/
+.settings/
+bin/
+target/
+
+# macOS
+.DS_Store
+
+# Configuração local do servidor Fluig (contém usuário e senha)
+.vscode/
+servers.json
+Sem Título.json
