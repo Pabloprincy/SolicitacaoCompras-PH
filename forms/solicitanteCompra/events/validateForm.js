@@ -35,9 +35,17 @@ function validateForm(form) {
     throw "Gestor: escolha Aprovar ou Desaprovar.";
   }
 
+  if (atividade == ATV_APROVAR_SOLICITACAO && form.getValue('decisaoGestor') == 'desaprovar' && vazio(form.getValue('obsGestor'))){
+    throw "Gestor: Informe o motivo da desaprovação!";
+  }
+
   // Aprovar compra: decisão do RH
   if (atividade == ATV_APROVAR_COMPRA && vazio(form.getValue("decisaoRH"))) {
     throw "RH: escolha Aprovar ou Desaprovar.";
+  }
+
+  if (atividade == ATV_APROVAR_COMPRA && form.getValue('decisaoRH') == 'desaprovar' && vazio(form.getValue('obsRH'))){
+    throw "RH: Informe o motivo da desaprovação!";
   }
 }
 
