@@ -34,7 +34,10 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
      Teste: solicitação **33** (registro 63), aberta pela tela, gravou `hidden_solicitante = academy.aluno`. **33 cancelada.**
   3. ✅ No editor web, atividades 11 e 32 trocadas para "Por campo de formulário" = `hidden_solicitante`
      (o Pablo fez). Processo **publicado e liberado na versão 21** (antes a 21 era rascunho e as solicitações abriam na 20).
-     Ainda não testado: uma solicitação passando pela 11 ou 32 cair para o solicitante.
+     ✅ Testado (20/11, movimentando pela tela): 34 desaprovada → caiu na 11; 35 aprovada (gestor e RH) → caiu na 32;
+     as duas com o responsável academy.aluno. Limite: no lab, solicitante = gestor = RH (mesmo usuário).
+     Pelo MCP, mover a 22 através do gateway dá "Não existem colaboradores em comum…"; pela tela funciona.
+     O teste B abriu o subprocesso realizarCompra (36), que parou no Início com academy.aluno. 34, 35 e 36 canceladas.
      `workflow/diagrams/solicitacaoCompras.xml` está desatualizado (ainda mostra `hidden_gestor` na 11 e 32).
 - **Próxima: pendência 2.** O "relógio" é o prazo de 48 h da atividade 22 (pode ficar, deixa a tarefa vermelha);
   o errado é a seta automática **"Fluxo prazo vencido" 22 → 25**, que deve ser removida.
