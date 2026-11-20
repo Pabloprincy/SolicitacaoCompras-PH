@@ -24,7 +24,7 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   no lab (documentId 11), testada e salva no GitHub (`origin` e `ph`, commits f9c9a21 e 1687e45).
   Teste no lab: gestor e RH desaprovando sem observação são barrados com a mensagem certa.
   Ainda não testado: desaprovar COM observação pela tela (caminho feliz). Solicitações de teste 31 e 32 canceladas.
-- 20/11/2026: **pendência 1 concluída no lab** (notificar o solicitante). **Falta commit/push** (só com o pedido do Pablo).
+- 20/11/2026: **pendência 1 concluída**, testada e no GitHub (commits f70d3a1 e f6c3556).
   1. ✅ `hidden_solicitante` criado no `solicitanteCompra.html` (linha 41).
   2. ✅ `events/displayFields.js` grava `WKUser` nas atividades 0/1. Formulário publicado (versão 16000).
      TDN FORM 001: https://tdn.totvs.com/pages/releaseview.action?pageId=236591623
@@ -38,9 +38,12 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
      as duas com o responsável academy.aluno. Limite: no lab, solicitante = gestor = RH (mesmo usuário).
      Pelo MCP, mover a 22 através do gateway dá "Não existem colaboradores em comum…"; pela tela funciona.
      O teste B abriu o subprocesso realizarCompra (36), que parou no Início com academy.aluno. 34, 35 e 36 canceladas.
-     `workflow/diagrams/solicitacaoCompras.xml` está desatualizado (ainda mostra `hidden_gestor` na 11 e 32).
-- **Próxima: pendência 2.** O "relógio" é o prazo de 48 h da atividade 22 (pode ficar, deixa a tarefa vermelha);
-  o errado é a seta automática **"Fluxo prazo vencido" 22 → 25**, que deve ser removida.
+- 20/11/2026: **pendência 2 concluída** (prazo vencido não pula o gestor). O Pablo apagou no editor web a
+  seta automática "Fluxo prazo vencido" (fluxo 50, 22 → 25) e publicou a **versão 22**. O prazo de 48 h da 22 ficou
+  (deixa a tarefa vermelha). Cuidado: na 1ª tentativa ele apagou e criou outra seta comum 22 → 25 (fluxo 54), também
+  apagada. Conferido no export: da 22 só sai 22 → 10. Teste: solicitação 37 (versão 22) só oferece 10 ou transferir;
+  37 cancelada. Não dá para testar o atraso (48 h). Backup `workflow/diagrams/solicitacaoCompras.xml` = versão 22.
+- **Próxima: pendência 3** (subprocesso `realizarCompra` sem formulário). Ler `RETORNO_AVALIADOR_2026-11-19.md` antes.
 - Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
 - Dúvida que o Pablo teve: "como o campo vai saber quem é o solicitante?". Resposta dada: o campo é só uma
   caixinha vazia; quem escreve nela é o evento do passo 2 (analogia: "Solicitante:" em branco num papel).
@@ -60,30 +63,31 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
 - Git: remotos `origin` (SolicitacaoCompras-PH) e `ph` (SolicitarCompraPh). Para atualizar os dois: `git push origin && git push ph`.
 
 ## Processo `solicitacaoCompras` ("Solicitação de compras ph")
-Números das atividades (conferidos na versão 20; reconferir se o diagrama mudar):
+Números das atividades (conferidos na versão 22; reconferir se o diagrama mudar):
 
 | Nº | Atividade | Responsável |
 |---|---|---|
 | 1 (ou 0) | Início | Solicitante |
-| 22 | Aprovar solicitação | Gestor (campo `hidden_gestor`) |
+| 22 | Aprovar solicitação (prazo 48 h, sem fluxo automático) | Gestor (campo `hidden_gestor`) |
 | 10 | Gateway "Gestor aprovou?" | aprovar → 25 / desaprovar → 11 |
 | 25 | Aprovar compra | Pool grupo RH-PH |
 | 18 | Gateway "RH aprovou?" | |
-| 11 | Notificar Solicitante | hoje: `hidden_gestor` (**errado**, ver pendências) |
+| 11 | Notificar Solicitante | campo `hidden_solicitante` |
 | 28 / 46 | Paralelo / Join | |
-| 32 | Notificar colaborador | hoje: `hidden_gestor` |
+| 32 | Notificar colaborador | campo `hidden_solicitante` |
 | 42 | Subprocesso `realizarCompra` (Analisar → Comprar, pool COMPRAS-PH) | |
 | 12 / 37 | Fim | |
 
 ## Formulário `solicitanteCompra`
 - documentId 11, dataset `DSsolicitanteCompra`.
-- Campos: nomeSolicitante, areaCusto, gestor (zoom colleague), hidden_gestor, itens, valor, justificativa, decisaoGestor (aprovar/desaprovar), obsGestor, decisaoRH (aprovar/desaprovar), obsRH.
-- Eventos: `validateForm.js` (obrigatórios por etapa) e `enableFields.js` (cada etapa edita só os próprios campos).
+- Campos: nomeSolicitante, areaCusto, gestor (zoom colleague), hidden_gestor, hidden_solicitante, itens, valor, justificativa, decisaoGestor (aprovar/desaprovar), obsGestor, decisaoRH (aprovar/desaprovar), obsRH.
+- Eventos: `validateForm.js` (obrigatórios por etapa), `enableFields.js` (cada etapa edita só os próprios campos)
+  e `displayFields.js` (grava o login de quem abre no `hidden_solicitante`, só no início).
 
 ## Pendências (retorno do avaliador em 19/11/2026, nota 6–7)
 Transcrição do áudio do avaliador: `RETORNO_AVALIADOR_2026-11-19.md` (leia antes de mexer nas pendências).
-1. Solicitante não é notificado: criar hidden com o usuário do solicitante (preenchido no início) e usar nas atividades 11 e 32. **EM ANDAMENTO**, ver "Onde paramos".
-2. Prazo vencido não pode pular o gestor: tirar o fluxo automático 22 → 25; só sinalizar atraso na central de tarefas.
+1. Solicitante não é notificado: criar hidden com o usuário do solicitante (preenchido no início) e usar nas atividades 11 e 32. **FEITA** (20/11).
+2. Prazo vencido não pode pular o gestor: tirar o fluxo automático 22 → 25; só sinalizar atraso na central de tarefas. **FEITA** (20/11, versão 22).
 3. Subprocesso `realizarCompra` sem formulário: o comprador precisa receber itens, valor, centro de custo e anexos.
 4. Observação obrigatória quando gestor ou RH desaprovar. **FEITA** (19/11): regras do gestor e do RH em `validateForm.js`, publicadas e testadas no lab; a comparação `== 'desaprovar'` funcionou no Rhino.
 5. (Levantamento, não obrigatório) conflito de acesso do RH aprovar e também estar no subprocesso.
