@@ -44,6 +44,15 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   apagada. Conferido no export: da 22 só sai 22 → 10. Teste: solicitação 37 (versão 22) só oferece 10 ou transferir;
   37 cancelada. Não dá para testar o atraso (48 h). Backup `workflow/diagrams/solicitacaoCompras.xml` = versão 22.
 - **Próxima: pendência 3** (subprocesso `realizarCompra` sem formulário). Ler `RETORNO_AVALIADOR_2026-11-19.md` antes.
+  Conferido (20/11): `realizarCompra` versão 3 (Início 7 → Analisar 8 → Comprar 9 → Fim 10) **sem formulário**.
+  Plano explicado ao Pablo: (1) criar formulário para o subprocesso; (2) copiar itens, valor e centro de custo
+  do pai para o filho num evento (**confirmar no TDN qual**, ex.: hAPI.getParentInstance); (3) ligar
+  "Transfere Anexos" na atividade 42 (hoje `transferAttachments false`). TDN: https://tdn.totvs.com/display/public/fluig/Atividades+Workflow
+  **Decisão em aberto (atualizada 20/11):** o subprocesso pode **reusar o próprio `solicitanteCompra` (documentId 11)**:
+  os eventos dele já deixam tudo só leitura nas atividades 7/8/9 (caem no `else` do enableFields; validateForm e
+  displayFields não agem). Recomendado reusar. O Pablo chegou a pedir uma cópia (publicada como documentId 67), mas
+  pediu para **desfazer tudo** porque não tinha estudado: 67 foi para a lixeira e nada da pendência 3 ficou no projeto.
+  Recomeçar com ele fazendo, passo a passo, a partir da escolha do formulário.
 - Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
 - Dúvida que o Pablo teve: "como o campo vai saber quem é o solicitante?". Resposta dada: o campo é só uma
   caixinha vazia; quem escreve nela é o evento do passo 2 (analogia: "Solicitante:" em branco num papel).
@@ -54,6 +63,20 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
 - A senha do lab foi escrita numa conversa anterior e **não está aqui**. Peça ao Pablo e nunca grave;
   ele deve trocá-la depois do teste técnico.
 - Git: lembrar o Pablo no início da sessão de commit/push (um commit por pendência); só com o pedido dele.
+
+## Dois computadores (Mac e Windows)
+O Pablo alterna entre o Mac e o PC Windows. O GitHub é o ponto de encontro.
+- **Ao começar a sessão:** rodar `git pull` no projeto e em `~/estudos` antes de qualquer coisa.
+- **Ao terminar** (ou se ele disser "vou trocar de PC"): atualizar "Onde paramos", commit e push
+  (`git push origin && git push ph`; em `~/estudos`, `git push`). Avisar e pedir o OK dele antes do push.
+- Ficam **fora do Git** (recriar em cada PC): `CLAUDE.md` do projeto (só `@AGENTS.md`, ignorado em
+  `.git/info/exclude`), `.vscode/servers.json` (cadastrar o servidor na extensão Fluig) e
+  `RETORNO_AVALIADOR_2026-11-19.md` (repo público: a cópia fica no repo privado
+  `~/estudos/estudos-fluig/projetos/solicitacao-compras-ph/`).
+- Regras globais do Claude: cópia em `~/estudos/claude-global/CLAUDE.md` → copiar para `~/.claude/CLAUDE.md`.
+- Finais de linha: `.gitattributes` força LF nos dois sistemas (evita diff falso no Windows).
+- Caminhos: no Mac o projeto fica em `~/eclipse-workspace/SolicitanteCompra`; no Windows, onde foi clonado.
+  `~/estudos` = pasta do usuário nos dois (Windows: `C:\Users\<usuário>\estudos`).
 
 ## Ambiente
 - Servidor: https://lab.fluig.com (Fluig Voyager 2.0), companyId 1. Credenciais: pedir ao Pablo (nunca gravar em arquivo).
