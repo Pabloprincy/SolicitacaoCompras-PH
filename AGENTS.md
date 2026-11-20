@@ -52,7 +52,8 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   os eventos dele já deixam tudo só leitura nas atividades 7/8/9 (caem no `else` do enableFields; validateForm e
   displayFields não agem). Recomendado reusar. O Pablo chegou a pedir uma cópia (publicada como documentId 67), mas
   pediu para **desfazer tudo** porque não tinha estudado: 67 foi para a lixeira e nada da pendência 3 ficou no projeto.
-  Recomeçar com ele fazendo, passo a passo, a partir da escolha do formulário.- 20/11: o Pablo vai usar o **Remote Control** (`/remote-control`) na sessão do Mac e acessar pelo Windows/celular.
+  Recomeçar com ele fazendo, passo a passo, a partir da escolha do formulário.
+- 20/11: o Pablo vai usar o **Remote Control** (`/remote-control`) na sessão do Mac e acessar pelo Windows/celular.
   Publicar pelo VS Code continua sendo no Mac.
 - Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
 - Dúvida que o Pablo teve: "como o campo vai saber quem é o solicitante?". Resposta dada: o campo é só uma
