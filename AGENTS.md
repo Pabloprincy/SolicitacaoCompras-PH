@@ -53,6 +53,18 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   displayFields não agem). Recomendado reusar. O Pablo chegou a pedir uma cópia (publicada como documentId 67), mas
   pediu para **desfazer tudo** porque não tinha estudado: 67 foi para a lixeira e nada da pendência 3 ficou no projeto.
   Recomeçar com ele fazendo, passo a passo, a partir da escolha do formulário.
+  **20/11 (Windows): decidido A = reusar `solicitanteCompra`.** O Pablo deixou o front com o Claude, mas quer
+  ver cada passo (lógica é com ele). Nada foi alterado ainda. Plano explicado (TDN conferido):
+  1. Editor web: ligar o formulário `solicitanteCompra` ao `realizarCompra` e publicar (pedir print da tela antes de explicar).
+  2. Editor web: atividade 42 do pai → marcar "Transfere Anexos".
+  3. Evento `afterProcessCreate` no FILHO: `hAPI.getParentInstance(processId)` → `hAPI.getCardData(pai)` →
+     `hAPI.setCardValue` em nomeSolicitante, areaCusto, itens, valor, justificativa, gestor. O Pablo escreve.
+     Sem tabela pai x filho, então o FORM 002 (wdkAddChild) não se aplica. `realizarCompra` NÃO está no projeto.
+  4. Teste pela tela.
+  **Próxima ação:** pedir login do lab e conferir no servidor `realizarCompra` (versão/formulário) e a atividade 42
+  (`fluig_server_process`, `fluig_export_process`). Depois, o print do editor web para o passo 1.
+- 20/11: o Pablo vai usar o **Remote Control** (`/remote-control`) na sessão do Mac e acessar pelo Windows/celular.
+  Publicar pelo VS Code continua sendo no Mac.
 - Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
 - Dúvida que o Pablo teve: "como o campo vai saber quem é o solicitante?". Resposta dada: o campo é só uma
   caixinha vazia; quem escreve nela é o evento do passo 2 (analogia: "Solicitante:" em branco num papel).
