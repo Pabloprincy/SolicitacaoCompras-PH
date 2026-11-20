@@ -24,15 +24,21 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   no lab (documentId 11), testada e salva no GitHub (`origin` e `ph`, commits f9c9a21 e 1687e45).
   Teste no lab: gestor e RH desaprovando sem observação são barrados com a mensagem certa.
   Ainda não testado: desaprovar COM observação pela tela (caminho feliz). Solicitações de teste 31 e 32 canceladas.
-- **Agora: pendência 1** (notificar o solicitante), em 3 passos, um por vez; o Pablo escreve o código:
-  1. **(Pablo está aqui)** No `solicitanteCompra.html`, logo abaixo da linha 39
-     (`<input type="hidden" id="hidden_gestor" name="hidden_gestor">`), criar
-     `<input type="hidden" id="hidden_solicitante" name="hidden_solicitante">`. Ele ainda não mostrou a linha pronta.
-  2. Preencher `hidden_solicitante` com o usuário de quem abre a solicitação, num evento no servidor
-     (ideia: `getValue("WKUser")`, só na atividade de início). **Conferir no TDN qual evento é o certo**
-     (displayFields ou evento do processo) e citar o link.
-  3. No editor web do lab, trocar o responsável das atividades 11 e 32 de `hidden_gestor` para
-     `hidden_solicitante`. Reconferir os números das atividades antes (servidor está na versão 21 do processo).
+- 20/11/2026: **pendência 1 concluída no lab** (notificar o solicitante). **Falta commit/push** (só com o pedido do Pablo).
+  1. ✅ `hidden_solicitante` criado no `solicitanteCompra.html` (linha 41).
+  2. ✅ `events/displayFields.js` grava `WKUser` nas atividades 0/1. Formulário publicado (versão 16000).
+     TDN FORM 001: https://tdn.totvs.com/pages/releaseview.action?pageId=236591623
+     **Decisão: caminho A (displayFields), porque o chefe pediu.** Alternativas não escolhidas:
+     afterProcessCreate + hAPI.setCardValue; mecanismo "Por executor de atividade" (Início).
+     O displayFields só roda com a tela aberta: testar pela tela, não pela API.
+     Teste: solicitação **33** (registro 63), aberta pela tela, gravou `hidden_solicitante = academy.aluno`. **33 cancelada.**
+  3. ✅ No editor web, atividades 11 e 32 trocadas para "Por campo de formulário" = `hidden_solicitante`
+     (o Pablo fez). Processo **publicado e liberado na versão 21** (antes a 21 era rascunho e as solicitações abriam na 20).
+     Ainda não testado: uma solicitação passando pela 11 ou 32 cair para o solicitante.
+     `workflow/diagrams/solicitacaoCompras.xml` está desatualizado (ainda mostra `hidden_gestor` na 11 e 32).
+- **Próxima: pendência 2.** O "relógio" é o prazo de 48 h da atividade 22 (pode ficar, deixa a tarefa vermelha);
+  o errado é a seta automática **"Fluxo prazo vencido" 22 → 25**, que deve ser removida.
+- Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
 - Dúvida que o Pablo teve: "como o campo vai saber quem é o solicitante?". Resposta dada: o campo é só uma
   caixinha vazia; quem escreve nela é o evento do passo 2 (analogia: "Solicitante:" em branco num papel).
 - Explicação que não funcionou: tabela abstrata "gestor → RH" com 4 trocas.
@@ -72,6 +78,7 @@ Números das atividades (conferidos na versão 20; reconferir se o diagrama muda
 - Eventos: `validateForm.js` (obrigatórios por etapa) e `enableFields.js` (cada etapa edita só os próprios campos).
 
 ## Pendências (retorno do avaliador em 19/11/2026, nota 6–7)
+Transcrição do áudio do avaliador: `RETORNO_AVALIADOR_2026-11-19.md` (leia antes de mexer nas pendências).
 1. Solicitante não é notificado: criar hidden com o usuário do solicitante (preenchido no início) e usar nas atividades 11 e 32. **EM ANDAMENTO**, ver "Onde paramos".
 2. Prazo vencido não pode pular o gestor: tirar o fluxo automático 22 → 25; só sinalizar atraso na central de tarefas.
 3. Subprocesso `realizarCompra` sem formulário: o comprador precisa receber itens, valor, centro de custo e anexos.
