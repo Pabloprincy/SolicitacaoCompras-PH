@@ -53,6 +53,12 @@ O Pablo alterna entre IAs neste projeto. Este arquivo é a **única fonte de reg
   displayFields não agem). Recomendado reusar. O Pablo chegou a pedir uma cópia (publicada como documentId 67), mas
   pediu para **desfazer tudo** porque não tinha estudado: 67 foi para a lixeira e nada da pendência 3 ficou no projeto.
   Recomeçar com ele fazendo, passo a passo, a partir da escolha do formulário.
+  **Conferido no lab (20/11, Mac):** `realizarCompra` versão 3 **já tem formId 11** (`solicitanteCompra`)
+  → a nota "sem formulário" acima está errada ou foi ligado depois; confirmar na tela do editor web.
+  Atividade 42 do pai (versão 22): `transferAttachments false` → anexos ainda não passam para o filho.
+  **20/11 (Mac): o Pablo retomou a pendência 3.** Desfez antes porque estava pedindo para o Claude fazer
+  coisa demais. Agora: **lógica (eventos) é com ele; front pode ser com o Claude**, mas mostrando **cada passo
+  com calma**, um por mensagem, esperando ele acompanhar antes do próximo.
 - 20/11: o Pablo vai usar o **Remote Control** (`/remote-control`) na sessão do Mac e acessar pelo Windows/celular.
   Publicar pelo VS Code continua sendo no Mac.
 - Ideia anotada (não obrigatória): o zoom deixa o solicitante escolher a si mesmo como gestor (visto no teste da 33).
