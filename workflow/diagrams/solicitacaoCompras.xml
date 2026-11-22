@@ -31,9 +31,9 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>solicitacaoCompras</processId>
-      <version>22</version>
+      <version>23</version>
     </processDefinitionVersionPK>
-    <versionDescription></versionDescription>
+    <versionDescription>subprocessos com campos</versionDescription>
     <formId>11</formId>
     <editionMode>false</editionMode>
     <updateAttachmentsVersion>false</updateAttachmentsVersion>
@@ -41,7 +41,7 @@
     <active>true</active>
     <blockedVersion>false</blockedVersion>
     <counterSign>false</counterSign>
-    <processDiagram>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;850&quot; width=&quot;2242&quot; version=&quot;1.1&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 306 H 2180 A 18 18 0 0 1 2198 324 V 494 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;328&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;Solicitante&lt;/tspan&gt;&lt;/text&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;84&quot; y=&quot;494&quot; width=&quot;2114&quot; height=&quot;159&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;494&quot; x2=&quot;2198&quot; y2=&quot;494&quot; stroke=&quot;#afb0b3&quot; stroke-width=&quot;2&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;516&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;Gestor&lt;/tspan&gt;&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 653 H 2198 V 794 A 18 18 0 0 1 2180 812 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;653&quot; x2=&quot;2198&quot; y2=&quot;653&quot; stroke=&quot;#afb0b3&quot; stroke-width=&quot;2&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;675&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;RH&lt;/tspan&gt;&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 306 H 74 A 20 20 0 0 0 54 326 V 795 A 20 20 0 0 0 74 815 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;54&quot; y=&quot;306&quot; width=&quot;2144&quot; height=&quot;509&quot; rx=&quot;20&quot; ry=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;306&quot; x2=&quot;84&quot; y2=&quot;815&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot; font-size=&quot;14&quot; transform=&quot;rotate(-90 69 560.5)&quot; x=&quot;69&quot; y=&quot;560.5&quot;&gt;&lt;tspan x=&quot;69&quot; dy=&quot;0&quot;&gt;Solicitação&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;2&quot;&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;54&quot; y=&quot;306&quot; width=&quot;2144&quot; height=&quot;509&quot; rx=&quot;20&quot; ry=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;/g&gt;&lt;circle cx=&quot;306&quot; cy=&quot;378&quot; r=&quot;24&quot; fill=&quot;#c6fae0&quot; stroke=&quot;#277d82&quot; stroke-width=&quot;2&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;1&quot;&gt;&lt;circle cx=&quot;306&quot; cy=&quot;378&quot; r=&quot;24&quot; fill=&quot;#c6fae0&quot; stroke=&quot;#277d82&quot; stroke-width=&quot;2&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;750&quot; y=&quot;522&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 786 558)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;747&quot; y=&quot;519&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#exclusiveIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;700&quot; y=&quot;462&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;785&quot; y=&quot;477&quot; font-size=&quot;14&quot;&gt;Gestor aprovou?&lt;/text&gt;&lt;rect x=&quot;870&quot; y=&quot;510&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;886&quot; y=&quot;558&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;886&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;886&quot; dy=&quot;16&quot;&gt;Solicitante...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;11&quot;&gt;&lt;rect x=&quot;870&quot; y=&quot;510&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;886&quot; y=&quot;558&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;886&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;886&quot; dy=&quot;16&quot;&gt;Solicitante...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;886&quot; y=&quot;518&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;circle cx=&quot;1110&quot; cy=&quot;558&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;12&quot;&gt;&lt;circle cx=&quot;1110&quot; cy=&quot;558&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;918&quot; y=&quot;690&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 954 726)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;915&quot; y=&quot;687&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#exclusiveIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;868&quot; y=&quot;630&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;953&quot; y=&quot;645&quot; font-size=&quot;14&quot;&gt;RH aprovou?&lt;/text&gt;&lt;rect x=&quot;414&quot; y=&quot;522&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;430&quot; y=&quot;570&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;430&quot; dy=&quot;0&quot;&gt;Aprovar&lt;/tspan&gt;&lt;tspan x=&quot;430&quot; dy=&quot;16&quot;&gt;solicitação...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;22&quot;&gt;&lt;rect x=&quot;414&quot; y=&quot;522&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;430&quot; y=&quot;570&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;430&quot; dy=&quot;0&quot;&gt;Aprovar&lt;/tspan&gt;&lt;tspan x=&quot;430&quot; dy=&quot;16&quot;&gt;solicitação...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;430&quot; y=&quot;530&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;690&quot; y=&quot;702&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;706&quot; y=&quot;750&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;706&quot; dy=&quot;0&quot;&gt;Aprovar compra&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;25&quot;&gt;&lt;rect x=&quot;690&quot; y=&quot;702&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;706&quot; y=&quot;750&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;706&quot; dy=&quot;0&quot;&gt;Aprovar compra&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;706&quot; y=&quot;710&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;1242&quot; y=&quot;702&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 1278 738)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;1278&quot; y=&quot;682&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#parallelIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;1192&quot; y=&quot;642&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1277&quot; y=&quot;657&quot; font-size=&quot;14&quot;&gt;Paralelo&lt;/text&gt;&lt;rect x=&quot;1194&quot; y=&quot;534&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1210&quot; y=&quot;582&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;16&quot;&gt;colaborador...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;32&quot;&gt;&lt;rect x=&quot;1194&quot; y=&quot;534&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1210&quot; y=&quot;582&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;16&quot;&gt;colaborador...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;1210&quot; y=&quot;542&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;circle cx=&quot;2142&quot; cy=&quot;726&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;37&quot;&gt;&lt;circle cx=&quot;2142&quot; cy=&quot;726&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;1554&quot; y=&quot;678&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1570&quot; y=&quot;726&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1570&quot; dy=&quot;0&quot;&gt;Realizar  Compra&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;42&quot;&gt;&lt;rect x=&quot;1554&quot; y=&quot;678&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1570&quot; y=&quot;726&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1570&quot; dy=&quot;0&quot;&gt;Realizar  Compra&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;1570&quot; y=&quot;686&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#subprocessActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;1914&quot; y=&quot;690&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#afb0b3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 1950 726)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;1950&quot; y=&quot;670&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#joinIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;1864&quot; y=&quot;630&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1949&quot; y=&quot;645&quot; font-size=&quot;14&quot;&gt;Join&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-13&quot; sequence=&quot;13&quot; source=&quot;11&quot; target=&quot;12&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1038 558 L1086,558&quot; startX=&quot;1038&quot; startY=&quot;558&quot; endX=&quot;1086&quot; endY=&quot;558&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-16&quot; sequence=&quot;16&quot; source=&quot;10&quot; target=&quot;11&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 822 558 L870,558&quot; startX=&quot;822&quot; startY=&quot;558&quot; endX=&quot;870&quot; endY=&quot;558&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-21&quot; sequence=&quot;21&quot; source=&quot;18&quot; target=&quot;11&quot; targetElementInputDirection=&quot;TOP&quot; sourceElementDirectionRelativeTarget=&quot;BOTTOM&quot; d=&quot;M 954 690 L954,606&quot; startX=&quot;954&quot; startY=&quot;690&quot; endX=&quot;954&quot; endY=&quot;606&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-23&quot; sequence=&quot;23&quot; source=&quot;22&quot; target=&quot;10&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 582 568 L734,559&quot; startX=&quot;582&quot; startY=&quot;568&quot; endX=&quot;734&quot; endY=&quot;559&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-26&quot; sequence=&quot;26&quot; source=&quot;10&quot; target=&quot;25&quot; targetElementInputDirection=&quot;BOTTOM&quot; sourceElementDirectionRelativeTarget=&quot;TOP&quot; d=&quot;M 784 610 L779,702&quot; startX=&quot;784&quot; startY=&quot;610&quot; endX=&quot;779&quot; endY=&quot;702&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-27&quot; sequence=&quot;27&quot; source=&quot;25&quot; target=&quot;18&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 858 743 L902,731&quot; startX=&quot;858&quot; startY=&quot;743&quot; endX=&quot;902&quot; endY=&quot;731&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-36&quot; sequence=&quot;36&quot; source=&quot;18&quot; target=&quot;28&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1006 727 L1226,737&quot; startX=&quot;1006&quot; startY=&quot;727&quot; endX=&quot;1226&quot; endY=&quot;737&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-43&quot; sequence=&quot;43&quot; source=&quot;28&quot; target=&quot;42&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1330 737 L1542,728&quot; startX=&quot;1330&quot; startY=&quot;737&quot; endX=&quot;1542&quot; endY=&quot;728&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-47&quot; sequence=&quot;47&quot; source=&quot;32&quot; target=&quot;46&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1362 592 L1898,718&quot; startX=&quot;1362&quot; startY=&quot;592&quot; endX=&quot;1898&quot; endY=&quot;718&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-48&quot; sequence=&quot;48&quot; source=&quot;42&quot; target=&quot;46&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1722 726 L1890,726&quot; startX=&quot;1722&quot; startY=&quot;726&quot; endX=&quot;1890&quot; endY=&quot;726&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-49&quot; sequence=&quot;49&quot; source=&quot;46&quot; target=&quot;37&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1986 726 L2118,726&quot; startX=&quot;1986&quot; startY=&quot;726&quot; endX=&quot;2118&quot; endY=&quot;726&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-52&quot; sequence=&quot;52&quot; source=&quot;1&quot; target=&quot;22&quot; targetElementInputDirection=&quot;BOTTOM&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 330 395 L439,510&quot; startX=&quot;330&quot; startY=&quot;395&quot; endX=&quot;439&quot; endY=&quot;510&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-53&quot; sequence=&quot;53&quot; source=&quot;28&quot; target=&quot;32&quot; targetElementInputDirection=&quot;TOP&quot; sourceElementDirectionRelativeTarget=&quot;BOTTOM&quot; d=&quot;M 1278 702 L1278,630&quot; startX=&quot;1278&quot; startY=&quot;702&quot; endX=&quot;1278&quot; endY=&quot;630&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;defs&gt;&lt;marker id=&quot;endArrow&quot; orient=&quot;auto&quot; markerWidth=&quot;30&quot; markerHeight=&quot;30&quot; refX=&quot;10&quot; refY=&quot;6&quot; markerUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path id=&quot;pathArrow&quot; fill=&quot;none&quot; d=&quot;M6,2 L12,6 L6,10&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;marker id=&quot;startArrow&quot; orient=&quot;auto&quot; markerWidth=&quot;30&quot; markerHeight=&quot;30&quot; refX=&quot;8&quot; refY=&quot;6&quot; markerUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path id=&quot;pathStartArrow&quot; fill=&quot;none&quot; d=&quot;M12,2 L6,6 L12,10&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;path id=&quot;cancelIcon&quot; fill=&quot;none&quot; d=&quot;M16 16 36 36 M36 16 16 36&quot; stroke=&quot;#750303&quot; stroke-width=&quot;4&quot;&gt;&lt;/path&gt;&lt;path id=&quot;parallelIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform=&quot;rotate(45)&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;path id=&quot;joinIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#ffffff&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform=&quot;rotate(45)&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;path id=&quot;exclusiveIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; id=&quot;defaultActivityIllustration&quot;&gt;
+    <processDiagram>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; height=&quot;850&quot; width=&quot;2242&quot; version=&quot;1.1&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 306 H 2180 A 18 18 0 0 1 2198 324 V 494 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;328&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;Solicitante&lt;/tspan&gt;&lt;/text&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;84&quot; y=&quot;494&quot; width=&quot;2114&quot; height=&quot;160&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;494&quot; x2=&quot;2198&quot; y2=&quot;494&quot; stroke=&quot;#afb0b3&quot; stroke-width=&quot;2&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;516&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;Gestor&lt;/tspan&gt;&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 654 H 2198 V 796 A 18 18 0 0 1 2180 814 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;654&quot; x2=&quot;2198&quot; y2=&quot;654&quot; stroke=&quot;#afb0b3&quot; stroke-width=&quot;2&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; font-size=&quot;14&quot; x=&quot;100&quot; y=&quot;676&quot;&gt;&lt;tspan x=&quot;100&quot; dy=&quot;0&quot;&gt;RH&lt;/tspan&gt;&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; d=&quot;M 84 306 H 74 A 20 20 0 0 0 54 326 V 795 A 20 20 0 0 0 74 815 H 84 Z&quot; fill=&quot;rgb(255, 255, 255)&quot;/&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;54&quot; y=&quot;306&quot; width=&quot;2144&quot; height=&quot;509&quot; rx=&quot;20&quot; ry=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;line xmlns=&quot;http://www.w3.org/2000/svg&quot; x1=&quot;84&quot; y1=&quot;306&quot; x2=&quot;84&quot; y2=&quot;815&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;state-name&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; text-anchor=&quot;middle&quot; dominant-baseline=&quot;middle&quot; font-size=&quot;14&quot; transform=&quot;rotate(-90 69 560.5)&quot; x=&quot;69&quot; y=&quot;560.5&quot;&gt;&lt;tspan x=&quot;69&quot; dy=&quot;0&quot;&gt;Solicitação&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;2&quot;&gt;&lt;rect xmlns=&quot;http://www.w3.org/2000/svg&quot; x=&quot;54&quot; y=&quot;306&quot; width=&quot;2144&quot; height=&quot;509&quot; rx=&quot;20&quot; ry=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;1&quot;/&gt;&lt;/g&gt;&lt;circle cx=&quot;306&quot; cy=&quot;378&quot; r=&quot;24&quot; fill=&quot;#c6fae0&quot; stroke=&quot;#277d82&quot; stroke-width=&quot;2&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;1&quot;&gt;&lt;circle cx=&quot;306&quot; cy=&quot;378&quot; r=&quot;24&quot; fill=&quot;#c6fae0&quot; stroke=&quot;#277d82&quot; stroke-width=&quot;2&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;750&quot; y=&quot;522&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 786 558)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;747&quot; y=&quot;519&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#exclusiveIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;700&quot; y=&quot;462&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;785&quot; y=&quot;477&quot; font-size=&quot;14&quot;&gt;Gestor aprovou?&lt;/text&gt;&lt;rect x=&quot;870&quot; y=&quot;510&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;886&quot; y=&quot;558&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;886&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;886&quot; dy=&quot;16&quot;&gt;Solicitante...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;11&quot;&gt;&lt;rect x=&quot;870&quot; y=&quot;510&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;886&quot; y=&quot;558&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;886&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;886&quot; dy=&quot;16&quot;&gt;Solicitante...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;886&quot; y=&quot;518&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;circle cx=&quot;1110&quot; cy=&quot;558&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;12&quot;&gt;&lt;circle cx=&quot;1110&quot; cy=&quot;558&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;918&quot; y=&quot;690&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 954 726)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;915&quot; y=&quot;687&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#exclusiveIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;868&quot; y=&quot;630&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;953&quot; y=&quot;645&quot; font-size=&quot;14&quot;&gt;RH aprovou?&lt;/text&gt;&lt;rect x=&quot;414&quot; y=&quot;522&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;430&quot; y=&quot;570&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;430&quot; dy=&quot;0&quot;&gt;Aprovar&lt;/tspan&gt;&lt;tspan x=&quot;430&quot; dy=&quot;16&quot;&gt;solicitação...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;22&quot;&gt;&lt;rect x=&quot;414&quot; y=&quot;522&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;430&quot; y=&quot;570&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;430&quot; dy=&quot;0&quot;&gt;Aprovar&lt;/tspan&gt;&lt;tspan x=&quot;430&quot; dy=&quot;16&quot;&gt;solicitação...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;430&quot; y=&quot;530&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;690&quot; y=&quot;702&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;706&quot; y=&quot;750&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;706&quot; dy=&quot;0&quot;&gt;Aprovar compra&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;25&quot;&gt;&lt;rect x=&quot;690&quot; y=&quot;702&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;706&quot; y=&quot;750&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;706&quot; dy=&quot;0&quot;&gt;Aprovar compra&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;706&quot; y=&quot;710&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;1242&quot; y=&quot;702&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#f9f9f9&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 1278 738)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;1278&quot; y=&quot;682&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#parallelIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;1192&quot; y=&quot;642&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1277&quot; y=&quot;657&quot; font-size=&quot;14&quot;&gt;Paralelo&lt;/text&gt;&lt;rect x=&quot;1194&quot; y=&quot;534&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1210&quot; y=&quot;582&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;16&quot;&gt;colaborador...&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;32&quot;&gt;&lt;rect x=&quot;1194&quot; y=&quot;534&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1210&quot; y=&quot;582&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;0&quot;&gt;Notificar&lt;/tspan&gt;&lt;tspan x=&quot;1210&quot; dy=&quot;16&quot;&gt;colaborador...&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;1210&quot; y=&quot;542&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#defaultActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;circle cx=&quot;2142&quot; cy=&quot;726&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;g sequence=&quot;37&quot;&gt;&lt;circle cx=&quot;2142&quot; cy=&quot;726&quot; r=&quot;24&quot; fill=&quot;#fdc7c5&quot; stroke=&quot;#750303&quot; stroke-width=&quot;3&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;/circle&gt;&lt;/g&gt;&lt;rect x=&quot;1554&quot; y=&quot;678&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1570&quot; y=&quot;726&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1570&quot; dy=&quot;0&quot;&gt;Realizar  Compra&lt;/tspan&gt;&lt;/text&gt;&lt;g sequence=&quot;42&quot;&gt;&lt;rect x=&quot;1554&quot; y=&quot;678&quot; height=&quot;96&quot; width=&quot;168&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;2&quot; fill=&quot;#f9f9f9&quot; r=&quot;10&quot; rx=&quot;10&quot; ry=&quot;10&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1570&quot; y=&quot;726&quot; font-size=&quot;14&quot;&gt;&lt;tspan x=&quot;1570&quot; dy=&quot;0&quot;&gt;Realizar  Compra&lt;/tspan&gt;&lt;/text&gt;&lt;use x=&quot;1570&quot; y=&quot;686&quot; width=&quot;24&quot; height=&quot;24&quot; xlink:href=&quot;#subprocessActivityIllustration&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;rect x=&quot;1914&quot; y=&quot;690&quot; height=&quot;72&quot; width=&quot;72&quot; stroke=&quot;#58595b&quot; strokewidth=&quot;3&quot; fill=&quot;#afb0b3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; transform=&quot;rotate(45 1950 726)&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;use x=&quot;1950&quot; y=&quot;670&quot; width=&quot;100&quot; height=&quot;100&quot; xlink:href=&quot;#joinIcon&quot;&gt;&lt;/use&gt;&lt;rect x=&quot;1864&quot; y=&quot;630&quot; height=&quot;28&quot; width=&quot;172&quot; fill=&quot;#f3f3f3&quot; r=&quot;5&quot; rx=&quot;5&quot; ry=&quot;5&quot; opacity=&quot;1&quot; style=&quot;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/rect&gt;&lt;text xmlns=&quot;http://www.w3.org/2000/svg&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-family=&quot;&apos;Open Sans&apos;,Arial,sans-serif&quot; font-weight=&quot;bolder&quot; fill=&quot;#58595b&quot; x=&quot;1949&quot; y=&quot;645&quot; font-size=&quot;14&quot;&gt;Join&lt;/text&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-13&quot; sequence=&quot;13&quot; source=&quot;11&quot; target=&quot;12&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1038 558 L1086,558&quot; startX=&quot;1038&quot; startY=&quot;558&quot; endX=&quot;1086&quot; endY=&quot;558&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-16&quot; sequence=&quot;16&quot; source=&quot;10&quot; target=&quot;11&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 822 558 L870,558&quot; startX=&quot;822&quot; startY=&quot;558&quot; endX=&quot;870&quot; endY=&quot;558&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-21&quot; sequence=&quot;21&quot; source=&quot;18&quot; target=&quot;11&quot; targetElementInputDirection=&quot;TOP&quot; sourceElementDirectionRelativeTarget=&quot;BOTTOM&quot; d=&quot;M 954 690 L954,606&quot; startX=&quot;954&quot; startY=&quot;690&quot; endX=&quot;954&quot; endY=&quot;606&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-23&quot; sequence=&quot;23&quot; source=&quot;22&quot; target=&quot;10&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 582 568 L734,559&quot; startX=&quot;582&quot; startY=&quot;568&quot; endX=&quot;734&quot; endY=&quot;559&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-26&quot; sequence=&quot;26&quot; source=&quot;10&quot; target=&quot;25&quot; targetElementInputDirection=&quot;BOTTOM&quot; sourceElementDirectionRelativeTarget=&quot;TOP&quot; d=&quot;M 784 610 L779,702&quot; startX=&quot;784&quot; startY=&quot;610&quot; endX=&quot;779&quot; endY=&quot;702&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-27&quot; sequence=&quot;27&quot; source=&quot;25&quot; target=&quot;18&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 858 743 L902,731&quot; startX=&quot;858&quot; startY=&quot;743&quot; endX=&quot;902&quot; endY=&quot;731&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-36&quot; sequence=&quot;36&quot; source=&quot;18&quot; target=&quot;28&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1006 727 L1226,737&quot; startX=&quot;1006&quot; startY=&quot;727&quot; endX=&quot;1226&quot; endY=&quot;737&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-43&quot; sequence=&quot;43&quot; source=&quot;28&quot; target=&quot;42&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1330 737 L1542,728&quot; startX=&quot;1330&quot; startY=&quot;737&quot; endX=&quot;1542&quot; endY=&quot;728&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-47&quot; sequence=&quot;47&quot; source=&quot;32&quot; target=&quot;46&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1362 592 L1898,718&quot; startX=&quot;1362&quot; startY=&quot;592&quot; endX=&quot;1898&quot; endY=&quot;718&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-48&quot; sequence=&quot;48&quot; source=&quot;42&quot; target=&quot;46&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1722 726 L1890,726&quot; startX=&quot;1722&quot; startY=&quot;726&quot; endX=&quot;1890&quot; endY=&quot;726&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-49&quot; sequence=&quot;49&quot; source=&quot;46&quot; target=&quot;37&quot; targetElementInputDirection=&quot;RIGHT&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 1986 726 L2118,726&quot; startX=&quot;1986&quot; startY=&quot;726&quot; endX=&quot;2118&quot; endY=&quot;726&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-52&quot; sequence=&quot;52&quot; source=&quot;1&quot; target=&quot;22&quot; targetElementInputDirection=&quot;BOTTOM&quot; sourceElementDirectionRelativeTarget=&quot;LEFT&quot; d=&quot;M 330 395 L439,510&quot; startX=&quot;330&quot; startY=&quot;395&quot; endX=&quot;439&quot; endY=&quot;510&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;path xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;link-line-path draggable-element link-line-default&quot; direction=&quot;unidirectional&quot; marker-end=&quot;url(#endArrow)&quot; id=&quot;linkLine-53&quot; sequence=&quot;53&quot; source=&quot;28&quot; target=&quot;32&quot; targetElementInputDirection=&quot;TOP&quot; sourceElementDirectionRelativeTarget=&quot;BOTTOM&quot; d=&quot;M 1278 702 L1278,630&quot; startX=&quot;1278&quot; startY=&quot;702&quot; endX=&quot;1278&quot; endY=&quot;630&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; opacity=&quot;1&quot;/&gt;&lt;defs&gt;&lt;marker id=&quot;endArrow&quot; orient=&quot;auto&quot; markerWidth=&quot;30&quot; markerHeight=&quot;30&quot; refX=&quot;10&quot; refY=&quot;6&quot; markerUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path id=&quot;pathArrow&quot; fill=&quot;none&quot; d=&quot;M6,2 L12,6 L6,10&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;marker id=&quot;startArrow&quot; orient=&quot;auto&quot; markerWidth=&quot;30&quot; markerHeight=&quot;30&quot; refX=&quot;8&quot; refY=&quot;6&quot; markerUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path id=&quot;pathStartArrow&quot; fill=&quot;none&quot; d=&quot;M12,2 L6,6 L12,10&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;2&quot;&gt;&lt;/path&gt;&lt;/marker&gt;&lt;path id=&quot;cancelIcon&quot; fill=&quot;none&quot; d=&quot;M16 16 36 36 M36 16 16 36&quot; stroke=&quot;#750303&quot; stroke-width=&quot;4&quot;&gt;&lt;/path&gt;&lt;path id=&quot;parallelIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform=&quot;rotate(45)&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;path id=&quot;joinIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#ffffff&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform=&quot;rotate(45)&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;path id=&quot;exclusiveIcon&quot; fill=&quot;none&quot; d=&quot;M24 24 54 54 M54 24 24 54&quot; stroke=&quot;#58595b&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; transform-box=&quot;fill-box&quot;&gt;&lt;/path&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; id=&quot;defaultActivityIllustration&quot;&gt;
     &lt;circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;12&quot; fill=&quot;#EAF5FC&quot;/&gt;
     &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M17.4377 13.1672C17.2093 13.1672 17.0241 12.982 17.0241 12.7536V7.94602H7.04986C7.02419 7.94602 6.99906 7.94368 6.97468 7.93921V18.1187C6.97468 18.2202 7.06556 18.3027 7.17724 18.3027H16.8215C16.9332 18.3027 17.0241 18.2202 17.0241 18.1187V15.8191C17.0241 15.5907 17.2093 15.4055 17.4377 15.4055C17.6661 15.4055 17.8513 15.5907 17.8513 15.8191V18.1187C17.8514 18.6764 17.3894 19.13 16.8215 19.13H7.17729C6.60941 19.13 6.14746 18.6764 6.14746 18.1188V7.53238V5.62713C6.14746 5.1705 6.51746 4.80042 6.97402 4.80008C6.97424 4.80008 6.97446 4.80008 6.97468 4.80008L10.8654 4.80008C10.867 4.80006 10.8687 4.80005 10.8703 4.80005H16.8215C17.3894 4.80005 17.8514 5.25368 17.8514 5.8113V5.91544V7.53238V12.7535C17.8514 12.982 17.6662 13.1672 17.4377 13.1672ZM13.0887 5.62733C10.4697 5.64014 7.33943 5.68711 6.97468 5.83642V7.12556C6.99906 7.12108 7.02419 7.11874 7.04986 7.11874H17.0241V5.91544C17.0241 5.75655 16.8949 5.62736 16.736 5.62736C16.736 5.62736 16.7344 5.62735 16.7311 5.62733H13.0887ZM8.19016 12.3392H11.6648C11.8932 12.3392 12.0785 12.154 12.0785 11.9255V10.1056C12.0785 9.87711 11.8932 9.69193 11.6648 9.69193H8.19016C7.96175 9.69193 7.77652 9.87713 7.77652 10.1056V11.9255C7.77652 12.154 7.96175 12.3392 8.19016 12.3392ZM11.2512 11.5119H8.6038V10.5192H11.2512V11.5119ZM14.2292 12.2189C14.1195 12.2189 14.0143 12.1753 13.9367 12.0977L13.2749 11.4359C13.1134 11.2744 13.1134 11.0125 13.2749 10.8509C13.4365 10.6894 13.6984 10.6894 13.86 10.8509L14.2293 11.2203L15.5162 9.93333C15.6778 9.77184 15.9396 9.77181 16.1012 9.93333C16.2627 10.0949 16.2627 10.3568 16.1012 10.5183L14.5217 12.0977C14.4441 12.1753 14.3389 12.2189 14.2292 12.2189ZM11.6648 16.7218H8.19016C7.96175 16.7218 7.77652 16.5366 7.77652 16.3082V14.4882C7.77652 14.2598 7.96175 14.0746 8.19016 14.0746H11.6648C11.8932 14.0746 12.0785 14.2598 12.0785 14.4882V16.3082C12.0785 16.5366 11.8932 16.7218 11.6648 16.7218ZM8.6038 15.8945H11.2512V14.9019H8.6038V15.8945ZM13.9367 16.4804C14.0143 16.558 14.1195 16.6016 14.2292 16.6016C14.3389 16.6016 14.4441 16.558 14.5217 16.4804L16.1012 14.901C16.2627 14.7394 16.2627 14.4775 16.1012 14.316C15.9396 14.1545 15.6778 14.1545 15.5162 14.316L14.2293 15.6029L13.86 15.2336C13.6984 15.0721 13.4365 15.0721 13.2749 15.2336C13.1134 15.3951 13.1134 15.6571 13.2749 15.8186L13.9367 16.4804Z&quot; fill=&quot;#045B8F&quot;/&gt;
     &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M7.9668 5.61414C7.41451 5.61414 6.9668 6.06185 6.9668 6.61414V7.11876H17.0246V6.61414C17.0246 6.06185 16.5769 5.61414 16.0246 5.61414H7.9668ZM8.53711 10.4374H11.3198V11.5938H8.53711V10.4374ZM8.53594 14.8207H11.319V15.9756H8.53594V14.8207Z&quot; fill=&quot;white&quot;/&gt;
@@ -53,7 +53,7 @@
     <bpmnVersion>1</bpmnVersion>
     <inheritFormSecurity>false</inheritFormSecurity>
     <formIdV2>0</formIdV2>
-    <creationDate>2026-11-20T03:02:42-03:00[America/Sao_Paulo]</creationDate>
+    <creationDate>2026-11-22T12:26:58-03:00[America/Sao_Paulo]</creationDate>
     <authorName>Academy Aluno</authorName>
     <openInstances>0</openInstances>
     <processStates/>
@@ -66,7 +66,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>1</sequence>
       </processStatePK>
       <stateName>Início</stateName>
@@ -116,7 +116,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>10</sequence>
       </processStatePK>
       <stateName>Gestor aprovou?</stateName>
@@ -142,7 +142,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>11</sequence>
       </processStatePK>
       <stateName>Notificar Solicitante</stateName>
@@ -197,7 +197,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>12</sequence>
       </processStatePK>
       <stateName>Fim</stateName>
@@ -252,7 +252,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>18</sequence>
       </processStatePK>
       <stateName>RH aprovou?</stateName>
@@ -278,7 +278,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>22</sequence>
       </processStatePK>
       <stateName>Aprovar solicitação</stateName>
@@ -333,7 +333,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>25</sequence>
       </processStatePK>
       <stateName>Aprovar compra</stateName>
@@ -388,7 +388,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>28</sequence>
       </processStatePK>
       <stateName>Paralelo</stateName>
@@ -414,7 +414,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>32</sequence>
       </processStatePK>
       <stateName>Notificar colaborador</stateName>
@@ -469,7 +469,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>37</sequence>
       </processStatePK>
       <stateName>Fim</stateName>
@@ -524,7 +524,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>42</sequence>
       </processStatePK>
       <stateName>Realizar  Compra</stateName>
@@ -543,7 +543,7 @@
       <frequenceAuthorityTime>0</frequenceAuthorityTime>
       <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
       <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
-      <transferAttachments>false</transferAttachments>
+      <transferAttachments>true</transferAttachments>
       <subProcessId>realizarCompra</subProcessId>
       <formFolder>0</formFolder>
       <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
@@ -579,7 +579,7 @@
       <processStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>46</sequence>
       </processStatePK>
       <stateName>Join</stateName>
@@ -607,7 +607,7 @@
       <conditionProcessStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>10</sequence>
         <expressionOrder>3</expressionOrder>
       </conditionProcessStatePK>
@@ -622,7 +622,7 @@
       <conditionProcessStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>10</sequence>
         <expressionOrder>4</expressionOrder>
       </conditionProcessStatePK>
@@ -637,7 +637,7 @@
       <conditionProcessStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>18</sequence>
         <expressionOrder>1</expressionOrder>
       </conditionProcessStatePK>
@@ -652,7 +652,7 @@
       <conditionProcessStatePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>18</sequence>
         <expressionOrder>4</expressionOrder>
       </conditionProcessStatePK>
@@ -669,7 +669,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>13</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -689,7 +689,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>16</linkSequence>
       </processLinkPK>
       <actionLabel>não</actionLabel>
@@ -709,7 +709,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>21</linkSequence>
       </processLinkPK>
       <actionLabel>não</actionLabel>
@@ -729,7 +729,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>23</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -749,7 +749,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>26</linkSequence>
       </processLinkPK>
       <actionLabel>sim</actionLabel>
@@ -769,7 +769,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>27</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -789,7 +789,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>36</linkSequence>
       </processLinkPK>
       <actionLabel>Sim</actionLabel>
@@ -809,7 +809,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>43</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -829,7 +829,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>47</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -849,7 +849,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>48</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -869,7 +869,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>49</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -889,7 +889,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>52</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -909,7 +909,7 @@
       <processLinkPK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <linkSequence>53</linkSequence>
       </processLinkPK>
       <actionLabel></actionLabel>
@@ -934,7 +934,7 @@
       <swimLanePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>2</sequence>
       </swimLanePK>
       <stateName>Solicitação</stateName>
@@ -950,7 +950,7 @@
       <swimLanePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>5</sequence>
       </swimLanePK>
       <stateName>Solicitante</stateName>
@@ -966,7 +966,7 @@
       <swimLanePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>6</sequence>
       </swimLanePK>
       <stateName>RH</stateName>
@@ -982,7 +982,7 @@
       <swimLanePK>
         <companyId>1</companyId>
         <processId>solicitacaoCompras</processId>
-        <version>22</version>
+        <version>23</version>
         <sequence>7</sequence>
       </swimLanePK>
       <stateName>Gestor</stateName>
@@ -1002,15 +1002,71 @@
   <list/>
   <list/>
   <list/>
-  <list/>
+  <list>
+    <SubProcessFieldRelationship>
+      <formMapId>6</formMapId>
+      <tenantId>1</tenantId>
+      <processCode>solicitacaoCompras</processCode>
+      <stateSequence>42</stateSequence>
+      <version>23</version>
+      <subProcessCode>realizarCompra</subProcessCode>
+      <processField>justificativa</processField>
+      <subProcessField>justificativa</subProcessField>
+      <mapFlow>2</mapFlow>
+    </SubProcessFieldRelationship>
+    <SubProcessFieldRelationship>
+      <formMapId>7</formMapId>
+      <tenantId>1</tenantId>
+      <processCode>solicitacaoCompras</processCode>
+      <stateSequence>42</stateSequence>
+      <version>23</version>
+      <subProcessCode>realizarCompra</subProcessCode>
+      <processField>nomeSolicitante</processField>
+      <subProcessField>nomeSolicitante</subProcessField>
+      <mapFlow>2</mapFlow>
+    </SubProcessFieldRelationship>
+    <SubProcessFieldRelationship>
+      <formMapId>8</formMapId>
+      <tenantId>1</tenantId>
+      <processCode>solicitacaoCompras</processCode>
+      <stateSequence>42</stateSequence>
+      <version>23</version>
+      <subProcessCode>realizarCompra</subProcessCode>
+      <processField>areaCusto</processField>
+      <subProcessField>areaCusto</subProcessField>
+      <mapFlow>2</mapFlow>
+    </SubProcessFieldRelationship>
+    <SubProcessFieldRelationship>
+      <formMapId>9</formMapId>
+      <tenantId>1</tenantId>
+      <processCode>solicitacaoCompras</processCode>
+      <stateSequence>42</stateSequence>
+      <version>23</version>
+      <subProcessCode>realizarCompra</subProcessCode>
+      <processField>valor</processField>
+      <subProcessField>valor</subProcessField>
+      <mapFlow>2</mapFlow>
+    </SubProcessFieldRelationship>
+    <SubProcessFieldRelationship>
+      <formMapId>10</formMapId>
+      <tenantId>1</tenantId>
+      <processCode>solicitacaoCompras</processCode>
+      <stateSequence>42</stateSequence>
+      <version>23</version>
+      <subProcessCode>realizarCompra</subProcessCode>
+      <processField>itens</processField>
+      <subProcessField>itens</subProcessField>
+      <mapFlow>2</mapFlow>
+    </SubProcessFieldRelationship>
+  </list>
   <list/>
   <list/>
   <list>
     <ConditionProcessAutomaticRules>
-      <id>216</id>
+      <id>232</id>
       <tenantId>1</tenantId>
       <processId>solicitacaoCompras</processId>
-      <version>22</version>
+      <version>23</version>
       <sequence>10</sequence>
       <expressionOrder>3</expressionOrder>
       <ruleOrder>1</ruleOrder>
@@ -1020,10 +1076,10 @@
       <valueType>1</valueType>
     </ConditionProcessAutomaticRules>
     <ConditionProcessAutomaticRules>
-      <id>217</id>
+      <id>233</id>
       <tenantId>1</tenantId>
       <processId>solicitacaoCompras</processId>
-      <version>22</version>
+      <version>23</version>
       <sequence>10</sequence>
       <expressionOrder>4</expressionOrder>
       <ruleOrder>1</ruleOrder>
@@ -1033,10 +1089,10 @@
       <valueType>1</valueType>
     </ConditionProcessAutomaticRules>
     <ConditionProcessAutomaticRules>
-      <id>218</id>
+      <id>234</id>
       <tenantId>1</tenantId>
       <processId>solicitacaoCompras</processId>
-      <version>22</version>
+      <version>23</version>
       <sequence>18</sequence>
       <expressionOrder>1</expressionOrder>
       <ruleOrder>1</ruleOrder>
@@ -1046,10 +1102,10 @@
       <valueType>1</valueType>
     </ConditionProcessAutomaticRules>
     <ConditionProcessAutomaticRules>
-      <id>219</id>
+      <id>235</id>
       <tenantId>1</tenantId>
       <processId>solicitacaoCompras</processId>
-      <version>22</version>
+      <version>23</version>
       <sequence>18</sequence>
       <expressionOrder>4</expressionOrder>
       <ruleOrder>1</ruleOrder>
